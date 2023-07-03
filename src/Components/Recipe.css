@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+}
+body{
+    background-image: url('https://watermark.lovepik.com/photo/40021/9739.jpg_wh1200.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color:black;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.search-bar{
+    margin:1rem 0;
+    color: darkgreen;
+    width:400px;
+    height:40px;
+    border: none;
+    border-color: black;
+    outline: 1px;;
+    border-radius:1rem;
+    padding:6px;
+}
+
+
+.container{
+  width:80%;
+  height: 40%;
+  
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  grid-gap: 2rem;
+}
+.card{
+    width:180px;
+   
+    border-radius: 1rem;
+    background-color: black;
+    padding: 5px;
+}
+img{
+    width:100%;
+    border-radius: 1rem 1rem 0 0;
+
+}
+.card h3{
+    color:white;
+    font-size: 18px;
+}
+
+.card h2{
+    color:crimson;
+    font-size: 18px
+}
+.card h2 h2
+{
+    color:darkkhaki;
+}
